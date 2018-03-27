@@ -1,0 +1,5 @@
+qiuyj:
+  spring:
+    cloud:
+      msg: learning spring cloud demo
+      profile: default
