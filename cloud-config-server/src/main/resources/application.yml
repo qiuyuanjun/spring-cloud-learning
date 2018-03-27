@@ -1,0 +1,13 @@
+server:
+  port: 9094
+
+spring:
+  application:
+    name: cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          username: secret
+          password: secret
+          uri: https://github.com/qiuyuanjun/spring-cloud-learning

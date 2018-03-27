@@ -10,13 +10,10 @@
   <artifactId>cloud-config-server</artifactId>
   <packaging>jar</packaging>
 
-  <name>cloud-config-server</name>
-  <url>http://maven.apache.org</url>
-
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
-
   <dependencies>
+    <dependency>
+      <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-config-server</artifactId>
+    </dependency>
   </dependencies>
 </project>
