@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: cloud-config-server
+  cloud:
+    config:
+      uri: http://localhost:9094/
+      profile: default
+      label: master
+
+server:
+  port: 9095

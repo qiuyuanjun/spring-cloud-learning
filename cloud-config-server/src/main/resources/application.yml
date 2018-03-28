@@ -8,6 +8,4 @@ spring:
     config:
       server:
         git:
-          username: secret
-          password: secret
           uri: https://github.com/qiuyuanjun/spring-cloud-learning
