@@ -10,6 +10,10 @@
   <artifactId>cloud-config-server</artifactId>
   <packaging>jar</packaging>
 
+  <properties>
+    <start-class>com.qiuyj.cloudconfigserver.CloudConfigServerStarter</start-class>
+  </properties>
+
   <dependencies>
     <dependency>
       <groupId>org.springframework.cloud</groupId>
